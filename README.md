@@ -47,8 +47,21 @@ The dataset is realistic in size and structure, similar to what is commonly enco
 
 ---
 
+## Database Configuration
+
+This project connects to a local PostgreSQL database.
+
+Before running the Python scripts, update the database credentials in:
+- `src/load_data.py`
+- `src/analysis.py`
+
+Replace the placeholders with your local PostgreSQL username, password, and database name.
+
+---
+
 ## Conclusion
 
 This project demonstrates an end-to-end data analysis workflow, from data ingestion and cleaning to SQL-based analysis and visualization.  
 It reflects common tasks performed by data analysts when working with real business datasets.
  
+
